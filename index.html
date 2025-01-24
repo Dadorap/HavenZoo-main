@@ -1,0 +1,473 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="/css/cssReset.css" />
+    <link rel="stylesheet" href="/css/imports.css" />
+    <link rel="stylesheet" href="/css/hero.css" />
+    <link rel="stylesheet" href="/css/animalsDes.css" />
+    <link rel="stylesheet" href="/css/offers.css" />
+    <link rel="stylesheet" href="/css/map.css" />
+    <link rel="stylesheet" href="/css/navbar.css" />
+    <link rel="stylesheet" href="/css/subscribe.css" />
+    <link rel="stylesheet" href="/css/footer.css" />
+    <link rel="stylesheet" href="/css/animalTable.css" />
+    <link
+      rel="stylesheet"
+      type="text/css"
+      href="https://unpkg.com/@phosphor-icons/web@2.1.1/src/bold/style.css"
+    />
+
+    <title>Haven Zoo</title>
+  </head>
+
+  <body>
+    <nav class="nav">
+      <ul>
+        <li><a href="#subscribe">Subscribe</a></li>
+        <li><a href="#ani-des">Animals Pic's</a></li>
+        <li><a href="#animal-table">Animals Info</a></li>
+        <li><a href="#address">Contact Us</a></li>
+      </ul>
+    </nav>
+
+    <!-- Hero -->
+
+    <section class="hero">
+      <div>
+        <h1>Welcome to Haven Zoo!</h1>
+        <h2>Explore the wild world of animals</h2>
+        <button class="btn-hero" onclick="navigateToSection('offers')">
+          WHAT TO EXPECT
+        </button>
+      </div>
+      <button id="scrollToTopBtn" onclick="scrollToTop()">↑</button>
+    </section>
+
+<!-- animal pics with des -->
+
+    <section id="ani-des" class="ani-des">
+      <div class="flex-box">
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+        <div>
+          <img src="/images/cat.jpg" alt="Cat Image" class="box ani-image" />
+        </div>
+      </div>
+      <div class="flex-box">
+        <div>
+          <img
+            src="/images/chicken.jpg"
+            alt="chicken Image"
+            class="box ani-image"
+          />
+        </div>
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+        <div>
+          <img src="/images/dog.jpg" alt="Dog Image" class="box ani-image" />
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div>
+          <img src="/images/lion.jpg" alt="Lion Image" class="box ani-image" />
+        </div>
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+        <div>
+          <img
+            src="/images/parrots.jpg"
+            alt="Parrot Image"
+            class="box ani-image"
+          />
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div>
+          <img
+            src="/images/tiger.jpg"
+            alt="tiger Image"
+            class="box ani-image"
+          />
+        </div>
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+      </div>
+
+      <div class="flex-box">
+        <div class="box ani-des">
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+          <br />
+          <br />
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+          Reprehenderit, cum natus odio, nobis fugit omnis quisquam sed corporis
+          ipsam maiores cupiditate rem est numquam reiciendis vero nam
+          repudiandae nisi amet.
+        </div>
+        <div>
+          <img
+            src="/images/monkey.jpg"
+            alt="Monkey Image"
+            class="box ani-image"
+          />
+        </div>
+      </div>
+    </section>
+<!-- Table -->
+    <section id="animal-table">
+      <table class="styled-table">
+        <thead>
+          <tr>
+            <th>Name</th>
+            <th>Species</th>
+            <th>Image</th>
+            <th>Weight</th>
+            <th>Link</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>Tom</td>
+            <td>Felis catus</td>
+            <td><img src="/images/cat.jpg" alt="cat" /></td>
+            <td>5kg</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Cat" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Chicken</td>
+            <td>Gallus gallus</td>
+            <td><img src="/images/chicken.jpg" alt="chicken" /></td>
+            <td>3kg</td>
+            <td>
+              <a
+                href="https://en.wikipedia.org/wiki/Red_junglefowl"
+                target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+          <tr>
+            <td>Tomy</td>
+            <td>Canis familiaris</td>
+            <td><img src="/images/dog.jpg" alt="Dog" /></td>
+            <td>25kg</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Dog" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Simba</td>
+            <td>Panthera leo</td>
+            <td><img src="/images/lion.jpg" alt="Lion" /></td>
+            <td>250kg</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Lion" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Iago</td>
+            <td>Psittaciformes</td>
+            <td><img src="/images/parrots.jpg" alt="Parrot" /></td>
+            <td>200g</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Parrot" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Shere Khan</td>
+            <td>Panthera tigris</td>
+            <td><img src="/images/tiger.jpg" alt="Tiger" /></td>
+            <td>280kg</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Tiger" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>Louie</td>
+            <td>Macaques</td>
+            <td><img src="/images/monkey.jpg" alt="Monkey" /></td>
+            <td>15kg</td>
+            <td>
+              <a href="https://en.wikipedia.org/wiki/Macaque" target="_blank"
+                >Info</a
+              >
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+<!-- Cards -->
+    <section class="offers" id="offers">
+      <h2>Haven Zoo: Where Every Visit Is an Adventure!</h2>
+      <div class="grid-container">
+        <div class="card">
+          <img
+            src="/images/free-wifi-icon-6128369_1280.png"
+            alt="free wifi Image"
+          />
+          <div class="info">
+            <h2>FREE WIFI</h2>
+            <h3>The Wi-Fi password is printed on your receipt.</h3>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/images/restaurant.png" alt="restaurant Image" />
+          <div class="info">
+            <h2>Restaurant</h2>
+            <p>
+              Explore a variety of dining options at Haven Zoo! Plus, kids under
+              5 eat for free at all our restaurants.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/images/bar.jpeg" alt="Bar Image" />
+          <div class="info">
+            <h2>A bar to quench your thirst!</h2>
+            <p>
+              We offer a wide selection of drinks at great prices, including a
+              variety of alcohol-free options.
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/images/aquarium.jpg" alt="Aquarium Wonderland Image" />
+          <div class="info">
+            <h2>Aquarium Wonderland</h2>
+            <p>
+              Step into an underwater paradise with this tranquil aquarium, home
+              to exotic fish, lush plants, and vibrant coral. A perfect touch of
+              serenity and beauty for any space!
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/images/playcenter.jpeg" alt="play center Image" />
+          <div class="info">
+            <h2>Indoor play center</h2>
+            <p>
+              An indoor play center filled with slides, climbing structures, and
+              fun activities, perfect for kids to explore, play, and enjoy
+              safely!
+            </p>
+          </div>
+        </div>
+
+        <div class="card">
+          <img src="/images/playground.jpg" alt="play ground Image" />
+          <div class="info">
+            <h2>Outdoor Adventure Playground</h2>
+            <p>
+              An exciting outdoor playground filled with swings, climbing
+              frames, and slides. Perfect for kids to run, jump, and explore in
+              a safe and fun environment.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+<!-- map -->
+
+    <section id="address" class="map">
+      <div class="flex-box">
+        <div class="box">
+          <h2 class="map-header">Haven Zoo AB</h2>
+          <ul class="map-li">
+            <li>Adress: Kolmårdens Djurpark</li>
+            <li>Postalcode: 618 92 Kolmården</li>
+            <li>Phone: 011-15 71 00</li>
+          </ul>
+          <h2 class="map-header">Oppen hours</h2>
+          <ul class="map-li">
+            <li>Monday: 10:00 AM - 8:00 PM</li>
+            <li>Tuesday: 10:00 AM - 8:00 PM</li>
+            <li>Wednesday: 10:00 AM - 8:00 PM</li>
+            <li>Thursday: 10:00 AM - 8:00 PM</li>
+            <li>Friday: 10:00 AM - 8:00 PM</li>
+            <li>Saturday: 9:00 AM - 10:00 PM</li>
+            <li>Sunday: 9:00 AM - 10:00 PM</li>
+          </ul>
+          <div class="flex-box">
+            <img
+              class="svg"
+              src="/images/x-social-media-logo-icon.svg"
+              alt="twitter SVG"
+            />
+            <img
+              class="svg"
+              src="/images/youtube-svgrepo-com.svg"
+              alt="youtube SVG"
+            />
+            <img class="svg" src="/images/facebook.svg" alt="facebook SVG" />
+            <img class="svg" src="/images/instagram.svg" alt="instagram SVG" />
+          </div>
+        </div>
+        <div class="box">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d8299.431428964708!2d16.44779570127585!3d58.66518743894325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46592ec1eb5b1fe9%3A0x639fdd3925456815!2sKolm%C3%A5rdens%20Djurpark%20AB!5e0!3m2!1ssv!2ssa!4v1736953475789!5m2!1ssv!2ssa"
+            width="600"
+            height="450"
+            style="border: 0"
+            allowfullscreen=""
+            loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"
+          ></iframe>
+        </div>
+      </div>
+    </section>
+
+<!-- Subscribe -->
+
+    <section id="subscribe" class="subscribe">
+      <h2>Subscribe for Exclusive Updates</h2>
+      <form action="" id="myForm">
+        <div>
+          <label for="firstName">First Name</label>
+          <input
+            id="firstName"
+            type="text"
+            placeholder="First Name 'John'"
+            required
+            pattern="[A-Za-z ]+"
+            title="Only alphabets allowed"
+          />
+          <label for="lastName">Last Name</label>
+          <input
+            id="lastName"
+            type="text"
+            placeholder="Last Name 'Johnsson'"
+            required
+            pattern="[A-Za-z ]+"
+            title="Only alphabets allowed"
+          />
+        </div>
+        <div>
+          <label for="date">Date of birth</label>
+          <input type="date" name="date" id="date" required />
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input
+            type="email"
+            id="email"
+            name="email"
+            required
+            placeholder="Enter your email 'john@email.com'"
+            title="Please enter a valid email address"
+          />
+        </div>
+        <button class="btn" type="submit">Subscribe</button>
+      </form>
+    </section>
+  </body>
+
+  <footer>
+    <div class="footer-content">
+      <p>
+        Haven Zoo is a sanctuary for wildlife enthusiasts. Join us for a
+        memorable adventure!
+      </p>
+      <p>Copyright © 2025 Haven Zoo. All Rights Reserved.</p>
+    </div>
+  </footer>
+  <script src="index.js"></script>
+</html>

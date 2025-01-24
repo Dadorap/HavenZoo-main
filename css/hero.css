@@ -1,0 +1,87 @@
+.hero {
+  height: 100vh;
+  background-image: url(/images/zoo.jpg);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-variant-ligatures: none;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+  font-family: "Chewy", sans-serif;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero h1 {
+  font-family: "Chewy", sans-serif !important;
+  font-size: 10rem;
+  color: rgb(45, 249, 9);
+  background-size: 400%;
+  animation: gradient-animation 5s infinite;
+}
+
+.hero h2 {
+  font-size: 5rem;
+  background-size: 400%;
+  color: rgb(171, 248, 57);
+  animation: gradient-animation 5s infinite;
+}
+.btn-hero {
+  font-size: 3rem;
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  background-size: 400%;
+  background-color:rgb(171, 248, 57);
+  color: rgb(49, 48, 48);
+  text-transform: uppercase;
+  text-align: center;
+  font-family: "Chewy", sans-serif;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.btn-hero:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.btn-hero:active {
+  transform: scale(0.95);
+}
+
+@keyframes gradient-animation {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+
+#scrollToTopBtn {
+  position: fixed;
+  bottom: 2rem;
+  right: -6rem;
+  background-color: rgb(255, 255, 255);
+  color: rgb(11, 77, 5);
+  border: none;
+  border-radius: 50%;
+  padding: 1rem;
+  font-size: 8rem;
+  cursor: pointer !important;
+  transition: right 0.3s ease-in-out;
+  z-index: 1000;
+}
+#scrollToTopBtn:hover {
+  background-color: rgb(46, 9, 255);
+  color: rgb(0, 255, 0);
+}
+#scrollToTopBtn.visible {
+  right: 2rem;
+}

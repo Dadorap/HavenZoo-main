@@ -1,0 +1,17 @@
+.map {
+  font-size: 2rem;
+}
+
+.map-header {
+  font-family: "Chewy", sans-serif;
+  font-size: 3rem;
+}
+
+.map-li li {
+  margin: 1rem;
+}
+
+.svg {
+  width: 7rem;
+  cursor: pointer;
+}

@@ -1,0 +1,52 @@
+.subscribe {
+  background-color: #3c4a54;
+  padding: 1.6rem;
+}
+form {
+  margin: 0 auto;
+  padding: 1rem;
+  border-radius: 3px;
+  background-color: #e3f2fd;
+}
+.subscribe h2 {
+  font-family: "Chewy";
+  font-size: 3rem;
+  padding-bottom: 0.5rem;
+  color: #ffff;
+}
+
+form input {
+  padding: 0.5rem 1rem;
+  margin: 0.5rem;
+}
+
+form input:focus {
+  outline-color: #3c4a54;
+  background-color: #ffff;
+  border: none;
+}
+
+label {
+  display: block;
+  font-size: 1.6rem;
+}
+#email {
+  width: 32.5rem;
+}
+
+.btn {
+  display: inline-block; 
+  font-size: 2rem;
+  font-weight: 600;
+  cursor: pointer !important;
+  border: none;
+  border-radius: 3px;
+  color: #ffff;
+  background: rgb(52, 52, 246);
+  padding: 0.5rem 2rem;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}

@@ -1,0 +1,27 @@
+.flex-box {
+  background-color: azure;
+  display: flex;
+  gap: 1.5rem;
+  padding: 1rem;
+}
+
+.box {
+  flex: 1;
+  margin: 0.5rem;
+}
+
+.ani-des {
+  font-family: "Fredoka", sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.6;
+  font-optical-sizing: auto;
+  font-weight: normal;
+  font-style: normal;
+  font-variation-settings: 100;
+}
+
+.ani-image {
+  border-radius: 0.5rem;
+  width: 80rem;
+  height: auto;
+}
