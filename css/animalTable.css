@@ -1,6 +1,6 @@
-#animal-table{
-  background-image:url(/images/bgio.jpg) ;
-  background-size:cover;
+#animal-table {
+  background-image: url(/images/bgio.jpg);
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -47,4 +47,10 @@
 .styled-table tbody tr td img {
   width: 7rem;
   height: auto;
+}
+
+@media (max-width: 350px) {
+  .styled-table {
+    font-size: 1rem;
+  }
 }

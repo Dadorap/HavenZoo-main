@@ -22,6 +22,27 @@
 
 .ani-image {
   border-radius: 0.5rem;
-  width: 80rem;
+  max-width: 70rem;
   height: auto;
+}
+
+@media (max-width: 1500px) {
+  .ani-image{
+    max-width: 65rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  .flex-box{
+    flex-direction: column;
+    align-items: center;
+  }
+
+    .flex-box:nth-child(odd) {
+    flex-direction: column-reverse; 
+  }
+}
+
+@media (max-width: 600px) {
+
 }

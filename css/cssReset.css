@@ -109,9 +109,9 @@ section {
 }
 body {
   line-height: 1;
-  width: 80%;
+  width: 85%;
   margin: 0 auto;
-  background-color: rgb(3, 65, 12);
+  background-color: rgb(42, 185, 64);
 }
 ol,
 ul {
@@ -131,4 +131,27 @@ q:after {
 table {
   border-collapse: collapse;
   border-spacing: 0;
+}
+
+@media (max-width: 1500px) {
+  html {
+    font-size: 50% !important;
+  }
+}
+
+@media (max-width: 650px) {
+  html {
+    font-size: 40% !important;
+  }
+}
+
+@media (max-width: 550px) {
+  html {
+    font-size: 25% !important;
+  }
+
+  body {
+    margin: 0;
+    padding: 0;
+  }
 }

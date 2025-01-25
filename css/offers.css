@@ -1,14 +1,14 @@
 .offers {
   background-color: rgb(228, 161, 36);
   font-family: "Fredoka", sans-serif;
-  
+  padding-bottom: 5rem;
 }
 
 .offers h2{
 font-size: 3rem;
 color: rgb(0, 0, 0);
-padding: 2rem;
-
+padding: 3rem;
+text-align: center;
 }
 
 .grid-container {
