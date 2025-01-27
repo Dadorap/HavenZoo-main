@@ -2,16 +2,31 @@
   font-size: 2rem;
 }
 
+.google_map iframe {
+  width: 60rem;
+  height: 45rem;
+  border: none;
+}
 .map-header {
   font-family: "Chewy", sans-serif;
   font-size: 3rem;
+  padding: 0 3rem;
 }
 
 .map-li li {
   margin: 1rem;
+  padding: 0 4rem;
 }
 
 .svg {
   width: 7rem;
   cursor: pointer;
 }
+
+@media (max-width: 1200px) {
+  .flex-box .svg {
+    flex-direction: row;
+  }
+}
+
+
